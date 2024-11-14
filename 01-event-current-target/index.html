@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling Example</title>
+    <link rel="icon" type="image/png" href="./images/favico/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favico/favicon-16x16.png">
+    <link rel="manifest" href="./images/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+
+<body>
+    <h1>Event Bubbling Example</h1>
+    <div class="nav-bar" id="navBar">
+        <!-- Buttons with random menu items will be dynamically added here -->
+    </div>
+    <div class="info" id="infoDisplay">
+        <p><strong>Container Clicked:</strong> <span id="containerInfo">None</span></p>
+        <p><strong>Originated from:</strong> <span id="originInfo">None</span></p>
+        <p><strong>Clicked Label:</strong> <span id="labelInfo">None</span></p>
+    </div>
+
+    <script src="./js/generateNavBar.js"></script>
+    <script src="./js/handleEvents.js"></script>
+</body>
+
+</html>
