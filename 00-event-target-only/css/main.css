@@ -5,7 +5,7 @@
         padding: 1rem;
         background-color: #333;
         color: white;
-        justify-content: flex-end; /* Aligns all items to the right */
+        justify-content: flex-start; /* Aligns all items to the right */
       }
   
       .nav-button {
